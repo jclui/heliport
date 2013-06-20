@@ -1,11 +1,19 @@
 
 body {
-		font-size: 100%;
+		font-size: 110%;
+		background: red;
+}
+.wrapper {
+	width: 100%;
+	max-width: 960px;
+}
+
+@media all and (max-width: 600px) {
+	body {
+		font-size: 80%;
+		background: blue;
+	}
 }
 
 /*	wrapper contains all sections and divs
 -------------------------------------------------------------*/
-.wrapper {
-	width: 100%;
-	max-width: 980px;
-}
