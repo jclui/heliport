@@ -1,0 +1,11 @@
+
+body {
+		font-size: 100%;
+}
+
+/*	wrapper contains all sections and divs
+-------------------------------------------------------------*/
+.wrapper {
+	width: 100%;
+	max-width: 980px;
+}
