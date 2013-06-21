@@ -4,7 +4,8 @@
 	<meta http-equiv="Content-Type" content="text/html"; charset="UTF-8"/>
 	<meta name="viewport" content="width=device-width" /> <!-- disables page scalling on mobile device -->
 	<link rel="stylesheet" type="text/css" href="style.css"/>
-	<link rel="stylesheet" media="(max-width: 980px)" href="style_tablet.css" />
+	<link rel="stylesheet" type="text/css" href="style_index.css"/>
+	<link rel="stylesheet" media="(max-width: 980px)" href="style_responsive.css" />
 
 	<title>HELIPORT CO.</title>
 </head>
@@ -16,23 +17,103 @@
 				<ul>
 					<li><a href="index.html">Home</a></li>
 					<li><a href="about.html">About</a></li>
-					<li><a href="package.html">Package</a></li>
 					<li><a href="transfer.html">Heli-Transfer</a></li>
+					<li><a href="package.html">Package</a></li>
 					<li><a href="request.html">Request Quote</a></li>
 				</ul>
 			</nav>
 		</header>
-		<div class="main_image">
+		<div class="main_image ft_index">
 			<div id="content">
 				<img src="main_image_discoverwhistler.png">
-				<div class="button">
-					<a href="#">BOOK YOUR TRIP TODAY!</a>
-				</div>
+				
+
+				<button type="button" class="button main">
+					<a href="book.html">BOOK YOUR TRIP TODAY!</a> <!---->
+				</button>
+
+
+				<button class="button main mobile">  
+					<a href="book.html">BOOK NOW!</a>
+				</button>
+
+
 			</div>
 		</div>
-	
+
+<!-- start page content -->
+
+
+		<section class="features">
+				<div class="grid_4">
+					<a href="#">
+					<img src="ft_heliSki.jpg" class="imglink" width="100%"/></a>
+					<p>Challenge your limits by skiing or snowboarding on the highest of peaks, made possible by helicopter access. Face new trails and unexpected thrills! <a href="#">Read Details &rarr;</a>
+					</p>
+				</div>
+				<div class="grid_4">
+					<a href="#">
+					<img src="ft_aerialView.jpg" class="imglink" width="100%"/></a>
+					<p>
+						Take a tour with us above British Columbia's famous lakes and rivers. What better way to view the city from above. <a href="#">Read Details &rarr;</a>
+					</p>
+				</div>
+				<div class="grid_4">
+					<a href="#">
+					<img src="ft_transfer.jpg" class="imglink" width="100%"/></a>
+					<p>
+						Undoubtedly the fastest way to travel to and from Whistler is via helicopter. Take in breathtaking sea to sky scenery of the Coast mountains. <a href="#">Read Details &rarr;</a>
+					</p>
+				</div>
+			</section> <!-- end features-->
+
+			<section class="blue_3">
+				<div class="grid_4">
+					<h1>DISCOVER THE BIG MOUNTAIN EXPERIENCE<h1>
+				</div>
+				<div class="grid_6">
+					Go beyond the ski lifts of Whistler and Blackcomb with our HeliSki Trip Packages. Imagine carving through untracked powder, endless terrain and breath-taking scenery. With hundreds of ski runs, there is a tremendous variety of slopes to accommodate all levels of skiers and boarders from intermediate to expert.
+				</div>
+				<div class="grid_2">
+					<button type="button" class="large">
+						<a href="book.html"><h2>BOOK NOW!<h2></a>
+					</button>
+				</div>
+			</section>
+
+
+
+<!-- end page content -->
+
 	</body>
 	<footer>
+
+		<div class="grid_3">
+			<a href="index.html">
+			<img src="heliport_logo_white.png" class="footerlogo imglink"></a>
+			<br>Copyright 2013. All rights reserved.
+			<div class="social">
+				FOLLOW US<br>
+				<img src="social_facebook.png">
+				<img src="social_twitter.png">
+				<img src="social_youtube.png">
+			</div>
+			
+		</div> 
+
+
+		<div class="grid_9 menu">
+			<ul>
+				<li><a href="about.html">About Us</a></li>
+				<li><a href="package.html">Packages</a></li>
+				<li><a href="transfer.html">Heli-Transfer</a></li>
+				<li><a href="book.html">BOOK NOW</a></li>
+				<li><a href="requst.html">REQUEST QUOTE</a></li>
+				<li><a href="contact.html">CONTACT US</a></li>
+			</ul>
+		</div>
+
+
 	</footer>
 </section> <!-- end wrapper-->
 </html>

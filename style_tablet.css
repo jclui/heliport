@@ -1,19 +1,66 @@
 
 body {
-		font-size: 110%;
-		background: red;
+		font-size: 120%;
 }
 .wrapper {
 	width: 100%;
 	max-width: 960px;
 }
+.logo {
+	background: red;
+}
 
 @media all and (max-width: 600px) {
 	body {
-		font-size: 80%;
+		font-size: 100%;
+	}
+	footer .menu ul {
+		display: none;
+	}
+	.logo {
 		background: blue;
+	}
+	.blue_3 .grid_6 {
+		width: 64.58%;
 	}
 }
 
-/*	wrapper contains all sections and divs
--------------------------------------------------------------*/
+@media all and (max-width: 500px) {
+	h1 {
+		font-size: 1.5em;
+	}
+
+	.logo {
+		background: green;
+	}
+	.button {
+		display: none;
+	}
+	.button.mobile {
+		display:block;
+	}
+	.main_image {
+		background-image: url(bg_heli_mobile.jpg);
+		background-size: 500px
+	}
+	.main_image #content {
+		padding-top: 20%;
+		padding-bottom: 5%;
+		width: 50%;
+	}
+	.features .grid_4{
+		width: 94.5%;
+		background: #ebebeb;
+		margin-bottom: 2%;
+		padding-right: 3%;
+		font-size: 1.05em;
+	}
+	.features img {
+		width: 30%;
+		padding-right: 3%;
+		float: left;
+	}
+	.blue_3 .grid_6 {
+		width: 64.58%;
+	}
+}

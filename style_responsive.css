@@ -1,0 +1,51 @@
+
+body {
+		font-size: 120%;
+}
+.wrapper {
+	width: 100%;
+	max-width: 960px;
+}
+.logo {
+	background: red;
+}
+
+@media all and (max-width: 600px) {  /* TABLET - BLUE */
+	body {
+		font-size: 100%;
+	}
+	footer .menu ul {
+		display: none;
+	}
+	.logo {
+		background: blue;
+	}
+}
+
+@media all and (max-width: 500px) {  /* MOBILE  - GREEN */
+	h1 {
+		font-size: 2em;
+	}
+
+	.logo {
+		background: green;
+	}
+	.button.main {
+		display: none;
+	}
+	.button.main.mobile {
+		display:block;
+	}
+	.main_image.ft_index {
+		background-image: url(bg_heli_mobile.jpg);
+		background-size: 500px
+	}
+	.main_image.ft_about {
+		background-image: url(bg_heli3_mobile.jpg);
+	}
+		.main_image #content {
+		padding-top: 20%;
+		padding-bottom: 5%;
+		width: 50%;
+	}
+}
