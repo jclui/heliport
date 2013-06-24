@@ -1,3 +1,6 @@
+.sec_contact {
+	display: none;
+}
 .sec_video img {
 	width: 100%;
 	cursor: hand;
@@ -16,9 +19,14 @@ input {
 }
 button {
 	width: 30%;
-	float: right;
 	height: 30px;
 	margin-top: 2%;
+}
+.sec_head button  {
+	width: 70%;
+}
+.sec_input button  {
+	float: right;
 }
 
 .newsletter {
@@ -35,7 +43,17 @@ button {
 
 @media all and (max-width: 500px) {
 	.sec_head {
-		width: 97.91%;
+		width: 47.91%;
+	}
+	.sec_head button {
+		display: none;
+	}
+	.sec_contact {
+		display: block;
+	}
+	.sec_contact button {
+		width: 80%;
+		height: 25px;
 	}
 	.sec_owner {
 		padding-top:2%;
