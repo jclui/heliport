@@ -1,4 +1,4 @@
-.sec_contact {
+.sec_book {
 	display: none;
 }
 
@@ -45,30 +45,24 @@ button {
 	.sec_head button {
 		display: none;
 	}
-	.sec_contact {
+	.sec_book {
 		display: block;
 	}
-	.sec_contact button {
+	.sec_book button {
 		width: 80%;
 		height: 25px;
 	}
-	.sec_owner {
+	
+	.sec_heliski {
 		padding-top:2%;
 		width: 47.91%;
 	}
-	.sec_video {
-		width:97.91%;
-	}
+	
 	.sec_story {
 		width: 97.91%;
 		padding-top:2%;
 	}
-	.newsletter {
-		display: none;
-	}
-	.newsletter_mobile {
-		display: block;
-	}
+	
 	input {
 		height: 25px;
 
