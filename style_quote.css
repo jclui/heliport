@@ -54,6 +54,11 @@ legend {}
 	padding-bottom: 5%;
 
 }
+
+.form_payment legend h2 {
+	text-align:center;
+}
+
  ol { }
 
 .form_payment ol{
