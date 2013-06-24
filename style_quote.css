@@ -86,7 +86,7 @@ input {
 	}
 	
  	.requestquote .grid_5{
-		background:red;
+		background: white;
 		padding-top: 5%;
 		padding: 2%;
 		border-radius: 8px;
@@ -107,7 +107,7 @@ input {
 	}
 	
  	.requestquote .grid_5{
-		background: green;
+		background: white;
 		padding-top: 5%;
 		padding: 2%;
 		border-radius: 5px;
