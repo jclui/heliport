@@ -1,0 +1,128 @@
+h2 {
+	color: #0a92d3;
+	text-align: center;
+}
+h3 {
+	color: #707070;
+	text-align: center;
+	font-weight: normal;
+	padding-top: 2%;
+
+
+}
+p {
+	color: #707070;
+	line-height: 200%;
+	text-align: center;
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
+hr {
+	width: 86%;
+	border: 1px solid #c2c2c2;
+}
+.textcenter {
+	text-align: center;
+}
+
+.section {
+	width: 100%;
+}
+
+.panel {
+	float:left;
+	width: 24%;
+	background: white;
+	border-radius: 15px;
+	-moz-border-radius: 15px;
+	padding: 2%;
+	padding-top: 3%;
+
+}
+.panel.left {
+	margin-left: 5%;
+
+}
+.panel.center {
+	margin-left: 3%;
+	margin-right: 3%;
+
+}
+.panel.right {
+	margin-right: 5%;
+
+}
+button {
+	padding: 4% 20%;
+	margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+.main_image img {
+	width: 75%;
+}
+.sec_title {
+	padding-top: 1%;
+	font-weight: 200;
+}
+.sec_title h1 {
+	font-size: 3em;
+}
+form#contact button{
+	float: right;
+	width: 20%;
+	margin-right: 2.5%;
+	margin-top: 1%;
+}
+form ul {
+	list-style-type: none;
+}
+form ul li {
+	display: inline;
+	background: red;
+}
+.contact_inputs {
+	width: 50%;
+}
+.sec_content img{
+	width: 15%;
+	padding-right: 2%;
+}
+input {
+	width: 48%;
+	margin-right: 1%;
+	border: 1px solid #aaaaaa;
+	color: #0974a7;
+}
+select {
+	width:48%;
+	border-radius: 0;
+	 -webkit-appearance: none;
+	 height: 30px;
+	 padding-left: 2%;
+	 background: url(dropdownarrow.jpg) no-repeat right white;
+	 border: 1px solid #aaaaaa;
+	 color: #0974a7;
+}
+textarea {
+	width: 97.5%;
+	margin-top: 1%;
+	border: 1px solid #aaaaaa;
+	padding:5px;
+}
+
+@media all and (max-width: 600px) {
+
+}
+
+@media all and (max-width: 500px) {
+}

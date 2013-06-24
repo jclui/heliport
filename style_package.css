@@ -1,0 +1,100 @@
+
+section .requestquote {
+	background: #5dacd7;
+
+}
+
+.requestquote .grid_5{
+	background:white;
+	padding-top: 5%;
+	padding: 2%;
+	border-radius: 10px;
+}
+
+
+.panel_left {
+
+}
+
+
+.panel_right {
+
+
+}
+
+.quote_left{
+
+
+}
+
+.quote_right{
+
+
+}
+
+form {}
+
+.form_payment {
+}
+
+.form_payment fieldset{
+	border:none;
+
+}
+fieldset {
+}
+
+legend {}
+
+.form_payment legend {
+	font-size:18px; 
+	color:#5dacd7; 
+	text-align:left;
+	padding-top: 5%;
+	padding-bottom: 5%;
+
+}
+ ol { }
+
+.form_payment ol{
+	list-style-type: none;
+	/* -webkit-padding-start: 0px; <----- if you want to remove indentation*/  
+
+}
+
+.form_payment ol li{
+	
+}
+
+hr {
+	width: 50%;
+}
+
+input {
+}
+
+@media all and (max-width: 600px) {
+	body {
+		font-size: 100%;
+	}
+	.grid_2 {
+		display: none;
+	}
+ 	.requestquote .grid_5{
+		background:red;
+		padding-top: 5%;
+		padding: 2%;
+		border-radius: 10px;
+		width:; 80%;
+	}
+
+}
+
+@media all and (max-width: 500px) {
+
+}
+
+
+
+
+
