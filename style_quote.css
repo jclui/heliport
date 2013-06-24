@@ -98,7 +98,7 @@ input {
 @media all and (max-width: 500px) {
 	body {
 		font-size: 100%;
-		h2: 70%;
+		h2: 50%;
 	}
 	
 	.grid_2 {
