@@ -74,6 +74,7 @@ input {
 }
 
 @media all and (max-width: 600px) {
+	  
 	body {
 		font-size: 100%;
 	}
@@ -87,8 +88,9 @@ input {
 		padding-top: 5%;
 		padding: 2%;
 		border-radius: 8px;
-		width:; 80%;
+		width: 80%;
 	}
+	
 
 }
 
@@ -102,11 +104,12 @@ input {
 	}
 	
  	.requestquote .grid_5{
-		background:green;
+		background: green;
 		padding-top: 5%;
 		padding: 2%;
 		border-radius: 5px;
-		width:; 80%;
+		width: 80%;
+		
 	}
 
 }
