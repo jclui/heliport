@@ -44,7 +44,10 @@ form {}
 fieldset {
 }
 
-legend {}
+legend {
+	font-size: 12px;
+	
+}
 
 .form_payment legend {
 	font-size:18px; 
