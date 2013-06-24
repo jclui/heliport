@@ -77,21 +77,39 @@ input {
 	body {
 		font-size: 100%;
 	}
+	
 	.grid_2 {
 		display: none;
 	}
+	
  	.requestquote .grid_5{
 		background:red;
 		padding-top: 5%;
 		padding: 2%;
-		border-radius: 10px;
+		border-radius: 8px;
 		width:; 80%;
 	}
 
 }
 
 @media all and (max-width: 500px) {
+	body {
+		font-size: 100%;
+	}
+	
+	.grid_2 {
+		display: none;
+	}
+	
+ 	.requestquote .grid_5{
+		background:green;
+		padding-top: 5%;
+		padding: 2%;
+		border-radius: 5px;
+		width:; 80%;
+	}
 
+}
 }
 
 
