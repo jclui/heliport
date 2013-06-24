@@ -82,11 +82,13 @@ input {
 	max-width: 50%;
 }
 
+
+
 @media all and (max-width: 600px) {
-	  
 	body {
 		font-size: 100%;
 		h2: 80%;
+		legend: 60%;
 	}
 	
 	.grid_2 {
@@ -104,10 +106,12 @@ input {
 
 }
 
+
 @media all and (max-width: 500px) {
 	body {
 		font-size: 100%;
 		h2: 50%;
+		legend: 50%;
 	}
 	
 	.grid_2 {
