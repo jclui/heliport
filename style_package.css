@@ -1,100 +1,82 @@
-
-section .requestquote {
-	background: #5dacd7;
-
+.sec_contact {
+	display: none;
 }
 
-.requestquote .grid_5{
-	background:white;
-	padding-top: 5%;
-	padding: 2%;
-	border-radius: 10px;
+.sec_input {
 }
-
-
-.panel_left {
-
+.sec_signup {
+	color: #0c70a0;
+	font-weight: 200;
 }
-
-
-.panel_right {
-
-
-}
-
-.quote_left{
-
-
-}
-
-.quote_right{
-
-
-}
-
-form {}
-
-.form_payment {
-}
-
-.form_payment fieldset{
-	border:none;
-
-}
-fieldset {
-}
-
-legend {}
-
-.form_payment legend {
-	font-size:18px; 
-	color:#5dacd7; 
-	text-align:left;
-	padding-top: 5%;
-	padding-bottom: 5%;
-
-}
- ol { }
-
-.form_payment ol{
-	list-style-type: none;
-	/* -webkit-padding-start: 0px; <----- if you want to remove indentation*/  
-
-}
-
-.form_payment ol li{
-	
-}
-
-hr {
-	width: 50%;
-}
-
 input {
+	width: 67.91%;
+	border-top: 2px solid white;
+	height: 30px;
+	margin-top: 2%;
 }
+button {
+	width: 30%;
+	height: 30px;
+	margin-top: 2%;
+}
+.sec_head button  {
+	width: 70%;
+}
+.sec_input button  {
+	float: right;
+}
+
+.newsletter {
+	display: block;
+}
+.newsletter_mobile {
+	display: none;
+}
+
 
 @media all and (max-width: 600px) {
-	body {
-		font-size: 100%;
-	}
-	.grid_2 {
-		display: none;
-	}
- 	.requestquote .grid_5{
-		background:red;
-		padding-top: 5%;
-		padding: 2%;
-		border-radius: 10px;
-		width:; 80%;
-	}
 
 }
 
 @media all and (max-width: 500px) {
+	.sec_head {
+		width: 47.91%;
+	}
+	.sec_head button {
+		display: none;
+	}
+	.sec_contact {
+		display: block;
+	}
+	.sec_contact button {
+		width: 80%;
+		height: 25px;
+	}
+	.sec_owner {
+		padding-top:2%;
+		width: 47.91%;
+	}
+	.sec_video {
+		width:97.91%;
+	}
+	.sec_story {
+		width: 97.91%;
+		padding-top:2%;
+	}
+	.newsletter {
+		display: none;
+	}
+	.newsletter_mobile {
+		display: block;
+	}
+	input {
+		height: 25px;
+
+	}
+	button {
+		height: 25px;
+		margin-top: 2%;
+
+	}
 
 }
-
-
-
-
-
