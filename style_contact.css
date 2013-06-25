@@ -11,7 +11,7 @@
 form#contact button{
 	float: right;
 	width: 20%;
-	margin-right: 2.5%;
+	margin-right: 10%;
 	margin-top: 1%;
 }
 form ul {
@@ -29,7 +29,7 @@ form ul li {
 	padding-right: 2%;
 }
 input {
-	width: 48%;
+	width: 90%;
 	margin-right: 1%;
 	border: 1px solid #aaaaaa;
 	color: #0974a7;
@@ -43,9 +43,10 @@ select {
 	 background: url(dropdownarrow.jpg) no-repeat right white;
 	 border: 1px solid #aaaaaa;
 	 color: #0974a7;
+	 margin-bottom: 1%;
 }
 textarea {
-	width: 97.5%;
+	width: 90%;
 	margin-top: 1%;
 	border: 1px solid #aaaaaa;
 	padding:5px;
