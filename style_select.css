@@ -10,16 +10,12 @@ h3 {
 
 
 }
-p {
-	color: #707070;
-	line-height: 200%;
-	text-align: center;
-	padding-top: 2%;
-	padding-bottom: 2%;
-}
 hr {
 	width: 86%;
 	border: 1px solid #c2c2c2;
+}
+.title {
+	margin-left: 5%;
 }
 .textcenter {
 	text-align: center;
@@ -60,6 +56,14 @@ hr {
 	background-size: 100%;
 	background-repeat: no-repeat;
 }
+.panel p {
+	color: #707070;
+	line-height: 200%;
+	text-align: center;
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
+
 button {
 	padding: 4% 20%;
 	margin: 0 auto;
