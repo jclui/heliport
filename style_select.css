@@ -35,22 +35,30 @@ hr {
 	background: white;
 	border-radius: 15px;
 	-moz-border-radius: 15px;
+	border: 1px solid #c0e3f4;
 	padding: 2%;
-	padding-top: 3%;
+	padding-top: 18%;
 
 }
 .panel.left {
-	margin-left: 5%;
+	margin-left: 4%;
+	background-image: url(package_heliSki.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
 
 }
 .panel.center {
 	margin-left: 3%;
 	margin-right: 3%;
-
+	background-image: url(package_aerialView.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
 }
 .panel.right {
-	margin-right: 5%;
-
+	margin-right: 4%;
+	background-image: url(package_seatosky.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
 }
 button {
 	padding: 4% 20%;

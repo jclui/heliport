@@ -197,6 +197,7 @@ nav ul li:hover a {
 	background-image: url(bg_heli4.jpg);
 <<<<<<< HEAD
 }
+<<<<<<< HEAD
 
 .main_image.ft_package {
 	background-image: url(bg_heli_quote2.png);
@@ -209,6 +210,17 @@ nav ul li:hover a {
 }
 
 
+=======
+.main_image.ft_quote {
+	background-image: url(bg_heli4.jpg);
+}
+.main_image.ft_request {
+	background-image: url(bg_heli4.jpg);
+}
+.main_image.ft_package {
+	background-image: url(bg_heli4.jpg);
+}
+>>>>>>> 0e84ce74cad43c4c7d015884f8c3e53135d4a13f
 .main_image #content {
 	padding-top: 15%;
 	padding-left: 2%;
