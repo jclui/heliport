@@ -194,8 +194,18 @@ nav ul li:hover a {
 	background-image: url(bg_heli3.jpg);
 }
 .main_image.ft_contact {
+	background-image: url(bg_heli4.jpg);
+}
+
+.main_image.ft_package {
+	background-image: url(bg_heli_quote2.png);
+}
+
+.main_image.ft_index_quote {
 	background-image: url(bg_heli2.jpg);
 }
+
+
 .main_image #content {
 	padding-top: 15%;
 	padding-left: 2%;
