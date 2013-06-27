@@ -145,4 +145,27 @@ button {
 }
 
 @media all and (max-width: 500px) {
+
+
+	.columnLeft {
+		width: 97.91%;
+		margin: 0px;
+		margin-bottom: 3%;
+	}
+	.panel.left {
+		padding-top: 0px;
+		padding-left: 50%;
+		background-image: url(package_heliski_mobile.jpg);
+		background-size: 50%;
+	}
+	.panel.right {
+		width:97.91%;
+		margin: 0px;
+	}
+	.price {
+		width: 100%;
+	}
+	.details {
+		width: 100%;
+	}
 }

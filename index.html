@@ -1,16 +1,19 @@
-<DOCTYPE hmtl>
-<html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-	<meta http-equiv="Content-Type" content="text/html"; charset="UTF-8"/>
-	<meta name="viewport" content="width=device-width" /> <!-- disables page scalling on mobile device -->
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+	<meta name="viewport" content="width=device-width"/> <!-- disables page scalling on mobile device -->
 	<link rel="stylesheet" type="text/css" href="style.css"/>
 	<link rel="stylesheet" type="text/css" href="style_index.css"/>
-	<link rel="stylesheet" media="(max-width: 980px)" href="style_responsive.css" />
+	<link rel="stylesheet" media="(max-width: 980px)" href="style_responsive.css"/>
 
 	<title>HELIPORT CO.</title>
 </head>
 <body>
-	<section class="logo"><img src="heliport_logo_white.png"/></section>
+	<section class="logo">
+		<a href="index.html"><img src="heliport_logo_white.png" alt="Heliport logo"/></a>
+	</section>
 	<section class="wrapper">
 		<header>
 			<nav>
@@ -25,18 +28,15 @@
 		</header>
 		<div class="main_image ft_index">
 			<div id="content">
-				<img src="main_image_discoverwhistler.png">
+				<img src="main_image_discoverwhistler.png" alt="Disocver Whistler"/>
 				
+				<a href="packages/aerial.html">
+					<div class="button main">BOOK YOUR TRIP TODAY!</div>
+				</a> 
 
-				<button type="button" class="button main">
-					<a href="packages/aerial.html">BOOK YOUR TRIP TODAY!</a> <!---->
-				</button>
-
-
-				<button class="button main mobile">  
-					<a href="packages/heliski.html">BOOK YOUR TRIP TODAY!</a>
-				</button>
-
+				<a href="packages/heliski.html">
+					<div class="button main mobile">BOOK YOUR TRIP TODAY!</div>
+				</a>
 
 			</div>
 		</div>
@@ -45,24 +45,24 @@
 
 
 		<section class="features">
-				<div class="grid_4">
+				<div class="grid_4 ftimg">
 					<a href="#">
-					<img src="ft_heliSki.jpg" class="imglink" width="100%"/></a>
-					<p>Challenge your limits by skiing or snowboarding on the highest of peaks, made possible by helicopter access. Face new trails and unexpected thrills! <a href="#">Read Details &rarr;</a>
+					<img src="ft_heliSki.jpg" class="imglink"></a>
+					<p>Challenge your limits by skiing or snowboarding on the highest of peaks, made possible by helicopter access. Face new trails and unexpected thrills! <a href="#">Read Details</a>
 					</p>
 				</div>
-				<div class="grid_4">
+				<div class="grid_4 ftimg">
 					<a href="#">
-					<img src="ft_aerialView.jpg" class="imglink" width="100%"/></a>
+					<img src="ft_aerialView.jpg" class="imglink"></a>
 					<p>
-						Take a tour with us above British Columbia's famous lakes and rivers. What better way to view the city from above. <a href="#">Read Details &rarr;</a>
+						Take a tour with us above British Columbia's famous lakes and rivers. What better way to view the city from above. <a href="#">Read Details </a>
 					</p>
 				</div>
-				<div class="grid_4">
+				<div class="grid_4 ftimg">
 					<a href="#">
-					<img src="ft_transfer.jpg" class="imglink" width="100%"/></a>
+					<img src="ft_transfer.jpg" class="imglink"/></a>
 					<p>
-						Undoubtedly the fastest way to travel to and from Whistler is via helicopter. Take in breathtaking sea to sky scenery of the Coast mountains. <a href="#">Read Details &rarr;</a>
+						Undoubtedly the fastest way to travel to and from Whistler is via helicopter. Take in breathtaking sea to sky scenery of the Coast mountains. <a href="#">Read Details</a>
 					</p>
 				</div>
 			</section> <!-- end features-->
@@ -76,11 +76,12 @@
 				</div>
 				<div class="grid_2 bookButton">
 					
-						<button type="button" class="large">
+						<div class="button large">
 							<a href="packages/heliski.html"><h2>VIEW PACKAGES<h2></a>
-						</button>
+						</div>
 				
 				</div>
+			</section>
 			</section>
 
 
@@ -88,14 +89,15 @@
 <!-- end page content -->
 
 	</body>
-	<footer>
-
+	
+		<section class="wrapper">
+<footer>
 		<div class="grid_4">
 			<!--
 			<a href="index.html">
 			<img src="heliport_logo_white.png" class="footerlogo imglink"></a>
 			<br>Copyright 2013. All rights reserved.
-			<!--
+			
 			<div class="social">
 				FOLLOW US<br>
 				<img src="social_facebook.png">
@@ -103,7 +105,7 @@
 				<img src="social_youtube.png">
 			</div>
 			-->
-			<p>&nbsp;</p>
+
 		</div> 
 	
 		
@@ -122,9 +124,9 @@
 			<div class="social">
 			<div>
 				FOLLOW US<br>
-				<img src="social_facebook.png">
-				<img src="social_twitter.png">
-				<img src="social_youtube.png">
+				<img src="social_facebook.png"/>
+				<img src="social_twitter.png"/>
+				<img src="social_youtube.png"/>
 			</div>
 			
 			<div>
@@ -137,13 +139,12 @@
 			</div>
 		</div>
 		</div>
-
-
+</footer> 
+</section>
 
 			
 		
 
 
-	</footer>
-</section> <!-- end wrapper-->
+	<!-- end wrapper-->
 </html>
