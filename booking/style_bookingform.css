@@ -1,13 +1,26 @@
 fieldset  {
-	border-color: red;
+	border: none;
 	width: 100%;
 }
 
+form ul {
+	list-style-type: none;
+}
+form ul li {
+	display: inline;
+	background: red;
+}
+
+
 input {
-	width: 100%;
+	width: 90%;
 	margin-right: 1%;
 	border: 1px solid #aaaaaa;
 	color: #0974a7;
+}
+
+.contact_inputs {
+	width: 50%;
 }
 
 .details {
@@ -16,6 +29,19 @@ input {
 	padding-left: 3%;
 	border-color: red;
 }
+
+
+textarea {
+	width: 100%;
+	margin-top: 1%;
+	border: 1px solid #aaaaaa;
+	padding:5px;
+}
+
+
+
+
+
 
 @media all and (max-width: 600px) {
 
