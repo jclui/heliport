@@ -37,11 +37,21 @@ textarea {
 	border-color: red;
 }
 
+button {
+	padding: 4% 20%;
+	margin: 0 auto;
+	text-transform: uppercase;
+
+}
+
 .buttons {
 	float: left;
-	width: 50%;
+	width: 30%;
 	padding-left: 2%;
 	border-color: red;
+	padding-bottom:  8%;
+	padding-top: 5%;
+	
 }
 
 textarea {
@@ -49,18 +59,13 @@ textarea {
 	margin-top: 1%;
 	border: 1px solid #aaaaaa;
 	padding: 5px;
+	padding-bottom: 8%;
 }
 
-button {
-	padding: 3% 10%;
-	line-height: normal;
-	margin: 5%;
-	text-transform: uppercase;
-	float: left;
-
+.columnLeft button {
+	width: 100%;
+	margin-top: 3%;
 }
-
-
 
 
 
