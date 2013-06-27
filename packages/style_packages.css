@@ -18,6 +18,55 @@ hr {
 	width: 86%;
 	border: 1px solid #c2c2c2;
 }
+.processsec {
+	background: #d9f1ff;
+	border-top: 5px solid #5dacd7;
+	padding-left: 4%;
+	padding-top: 10px;
+	padding-bottom: 3px;
+}
+.process ul {
+	position: relative;
+	-webkit-padding-start: 0px;
+	display: inline-table;
+	width: 100%;
+	list-style-type: none;
+}
+.process ul li{
+	float: left;
+	width: 14%;
+	padding: 1% 2%;
+	padding-right: 3%;
+	font-size: 1em;
+	text-transform: uppercase;
+	color: #c8c8c8;
+	background: white;
+	background-image: url(../process_arrow_white.png);
+	background-position: right;
+	background-repeat: no-repeat; 
+}
+.process ul li#lastarrow  {
+	background-image: url();
+}
+.process ul li#select  {
+	background: #5dacd7;
+	background-image: url(../process_arrow_select.png);
+	background-position: right;
+	background-repeat: no-repeat; 
+}
+.process ul li#select:hover  {
+	background: #A0D34F;
+	background-image: url(../process_arrow_hover.png);
+	background-position: right;
+	background-repeat: no-repeat; 
+}
+.process ul li a {
+	color: white;
+}
+.process img {
+	padding-right: 5%;
+	vertical-align: middle;
+}
 
 .faux_column {
 	background-image: url(faux_column_bg.png);
@@ -47,7 +96,6 @@ hr {
 	float:left;
 	width: 24%;
 	padding: 0% 2%;
-	border: 1px solid blue;
 }
 
 .panel {
@@ -56,7 +104,6 @@ hr {
 	padding: 2%;
 	padding-bottom: 0px;
 	padding-top: 18%;
-	border: 1px solid red;
 }
 .left {
 	margin-left: 4%;
