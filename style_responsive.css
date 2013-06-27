@@ -31,6 +31,10 @@ body {
 	}
 }
 
+@media all and (max-width: 550px) {
+	.iconss {
+		display: none;
+	}
 
 @media all and (max-width: 500px) {  /* MOBILE  - GREEN */
 	h1 {

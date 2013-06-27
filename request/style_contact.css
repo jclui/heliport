@@ -1,0 +1,96 @@
+p {
+	font-size: 1.2em;
+}
+.grid_6 {
+	margin-left: 20%;
+}
+.contact_us {
+	padding-left: 2%;
+}
+.main_image img {
+	width: 75%;
+}
+.sec_title {
+	padding-top: 1%;
+	font-weight: 200;
+}
+.sec_title h1 {
+	font-size: 3em;
+}
+fieldset {
+	border: none;
+}
+
+form {
+	width: 100%;
+}
+.button {
+	float: left;
+	width: 20%;
+	margin-right: 10%;
+	margin-top: 1%;
+}
+form ul {
+	list-style-type: none;
+	-webkit-padding-start: 0px;
+}
+form ul li {
+}
+.contact_inputs {
+	width: 50%;
+}
+.sec_content img{
+	width: 15%;
+	padding-right: 2%;
+}
+
+input {
+	width: 90%;
+	margin-top: 1%;
+	margin-bottom: 2%;
+	border: 1px solid #aaaaaa;
+	color: #0974a7;
+}
+textarea {
+	width: 90%;
+	margin-top: 1%;
+	border: 1px solid #aaaaaa;
+	padding:5px;
+}
+
+.office {
+	width: 100%;
+}
+.socialmedia {
+	width: 100%;
+}
+
+@media all and (max-width: 800px) {
+	.grid_6 {
+		margin-left: 0px;
+		width: 70%;
+	}	
+}
+
+@media all and (max-width: 500px) {
+
+	p {
+	font-size: 1.5em;
+}
+	.grid_6 {
+		width: 100%;
+	}
+	.grid_3 {
+		width: 100%;
+		margin-left: 2%;
+	}
+	.office {
+		width: 45%;
+		float: left;
+	}
+	.socialmedia {
+		width: 45%;
+		float: left;
+	}
+
+}
