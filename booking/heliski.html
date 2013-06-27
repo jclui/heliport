@@ -22,9 +22,9 @@
 				<ul>
 					<li><a href="../index.html">Home</a></li>
 					<li><a href="../about">About</a></li>
-					<li><a href="../packages">Packages</a></li>
-					<li><a href="../contact">Contact Us</a></li>
+					<li id="active"><a href="../packages">Packages</a></li>
 					<li><a href="../request">Request Quote</a></li>
+					<li><a href="../contact">Contact Us</a></li>
 				</ul>
 			</nav>
 		</header>
@@ -65,32 +65,19 @@
 			<div class="columnLeft">
 				<div class="panel left textcenter">
 					<h2>Heli Ski Trips</h2>
-					<h3>Blackcomb Peak Experience</h3>
-					<p>
-						Classic Experience<br>
-						Elite Experience<br>
-						Expert Experience
-					</p>
-					<hr>
-					
-						<ul>
-						<li>4 runs on Blackcomb Mountain Helicopter service</li>
-						<li>1,400 - 2,300 vertical meters of skiing</li>
-						<li>Helicopter capacity of 3-5 people</li>
-					</ul>
-					
-				
+					<h3>Blackcomb Peak Experience</h3><br>
+
+					<h1>LEVEL: CLASSIC</h1>
+					<div class="description2">
+						<hr>
+						<p>
+							Challenge your limits by skiing or snowboarding on the highest of peaks, made possible by helicopter access.
+						</p>
+					</div>
+					<div class="changebutton button">CHANGE PACKAGE</div>
+
+				</div>
 			</div>
-
-				<div class="button">Reselect Package</div>
-	
-
-			</div>
-
-
-
-
-
 			<div class="panel right"> 
 				<div>
 					<h2>PACKAGE BOOKING CHECKOUT</h2>
@@ -109,14 +96,18 @@
 
 
 					<div class="details">
-						<fieldset>
-							
-							<input type="text" name="name" placeholder="NAME: first and last" required autofocus>
-
-							<input type="tel" name="phone" placeholder="TELEPHONE: 604-555-5555" required autofocus>
-
-							<input type="email" name="email" placeholder="EMAIL: sample@email.com" required autofocus>
-						</fieldset>
+						<form>
+							<fieldset>
+								<ul>
+									<li><label for="name">Your Name:</label></li>
+									<li><input type="text" id="name" name="name" placeholder="First and Last" required autofocus></li>
+									<li><label for="tel">Telephone Nuber:</label></li>
+									<li><input type="tel" id="tel" name="phone" placeholder="604-555-5555" required autofocus></li>
+									<li><label for="mail">Email Address:</label></li>
+									<li><input type="email" id="mail" name="email" placeholder="sample@email.com" required autofocus></li>
+								</ul>
+							</fieldset>
+						</form>
 							
 					
 					</div> <!-- end details-->
@@ -127,35 +118,24 @@
 					</div> <!-- package title -->
 					
 					<div class="details">
-						<fieldset>
-							<!--
-							<ol>
-								<li>
-									<label for="address">Comments</label>
-									<div>
-									<textarea id="address" name="address" style=width: 500px; rows=10; required></textarea>
-									</div>
-								</li>
-							</ol>
-							-->
-							<textarea id="address" name="address" rows=10  placeholder="Your message here." required></textarea>
-						</fieldset>
+						<form>
+							<fieldset>
+								<ul>
+									<li><label for="text">Your Message or Questions:</label></li>
+									<li><textarea id="address" name="address" rows=8  placeholder="Your message here." required></textarea></li>
+								</ul>
+								
+							</fieldset>
+						</form>
 						
 					</div> <!-- end details-->
 					
 				<!-- Buttons -->
 					<div class="package_title">
-					<div class="buttons">
-						<a href="heliski.html">
-							<div class="button">BOOK</div>
-						</a>
-					</div>
-						
-					<div class="buttons">
-						<a href="heliski.html">
-							<div class="button">REQUEST QUOTE</div>
-						</a>
-					</div> <!-- package title -->
+	
+						<a href="heliski.html"><div class="button">PROCEED TO PAYMENT</div></a>
+
+						<a href="heliski.html"><div class="button"><div>REQUEST QUOTE</div></a>
 				</div>
 
 
@@ -170,35 +150,34 @@
 <!-- end page content -->
 
 
-	<footer>
+		<footer>
+			<div class="grid_3">
+				<a href="index.html">
+				<img src="../heliport_logo_white.png" class="footerlogo imglink" alt="Heliport logo"></a>
+				<br>Copyright 2013. All rights reserved.
+				<div class="social">
+					FOLLOW US<br>
+					<img src="../social_facebook.png" alt="Facebook"/>
+					<img src="../social_twitter.png" alt="Twitter"/>
+					<img src="../social_youtube.png" alt="Youtube"/>
+				</div>
 
-		<div class="grid_3">
-			<a href="index.html">
-			<img src="../heliport_logo_white.png" class="footerlogo imglink" alt="Heliport logo"></a>
-			<br>Copyright 2013. All rights reserved.
-			<div class="social">
-				FOLLOW US<br>
-				<img src="../social_facebook.png" alt="Facebook"/>
-				<img src="../social_twitter.png" alt="Twitter"/>
-				<img src="../social_youtube.png" alt="Youtube"/>
+			</div> 
+
+
+			<div class="grid_9 menu">
+				<ul>
+					<li><a href="about.html">About Us</a></li>
+					<li><a href="package.html">Packages</a></li>
+					<li><a href="transfer.html">Heli-Transfer</a></li>
+					<li><a href="book.html">BOOK NOW</a></li>
+					<li><a href="requst.html">REQUEST QUOTE</a></li>
+					<li><a href="contact.html">CONTACT US</a></li>
+				</ul>
 			</div>
 
-		</div> 
 
-
-		<div class="grid_9 menu">
-			<ul>
-				<li><a href="about.html">About Us</a></li>
-				<li><a href="package.html">Packages</a></li>
-				<li><a href="transfer.html">Heli-Transfer</a></li>
-				<li><a href="book.html">BOOK NOW</a></li>
-				<li><a href="requst.html">REQUEST QUOTE</a></li>
-				<li><a href="contact.html">CONTACT US</a></li>
-			</ul>
-		</div>
-
-
-	</footer>
-</section> <!-- end wrapper-->	
+		</footer>
+	</section> <!-- end wrapper-->	
 </body>
 </html>
