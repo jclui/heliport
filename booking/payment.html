@@ -115,10 +115,35 @@
 								<ul>
 									<li><label for="name">Address Billed to:</label></li>
 									<li><input type="text" id="name" name="name" placeholder="888 Steetname Road" required autofocus></li>
+									<li><label for="tel">City:</label></li>
+									<li><input type="tel" id="tel" name="phone" placeholder="Vancouver" required autofocus></li>
 									<li><label for="tel">Postal Code:</label></li>
 									<li><input type="tel" id="tel" name="phone" placeholder="V6P 1A1" required autofocus></li>
-									<li><label for="mail">Email Address:</label></li>
-									<li><input type="email" id="mail" name="email" placeholder="sample@email.com" required autofocus></li>
+									<li>Country
+										<select>
+											<option>Canada</option>
+											<option>United States of America</option>
+										</select>		
+									</li>
+									<li><label for="mail">Province</label>
+										<select>
+											<option value="AB">Alberta</option>
+											<option value="BC">British Columbia</option>
+											<option value="MB">Manitoba</option>
+											<option value="NB">New Brunswick</option>
+											<option value="NL">Newfoundland and Labrador</option>
+											<option value="NS">Nova Scotia</option>
+											<option value="ON">Ontario</option>
+											<option value="PE">Prince Edward Island</option>
+											<option value="QC">Quebec</option>
+											<option value="SK">Saskatchewan</option>
+											<option value="NT">Northwest Territories</option>
+											<option value="NU">Nunavut</option>
+											<option value="YT">Yukon</option>
+											<option> Outside Canada</option>
+										</select>		
+
+									</li>
 								</ul>
 							</fieldset>
 						</form>
@@ -130,7 +155,7 @@
 					<div class="package_title">
 						<h3>BILLING TOTAL</h3>
 					</div> <!-- package title -->
-					<div class="details">
+					<div class="details"><br>
 						<div class="price_total">Subtotal<br>Facility Fee<br>Fuel Surcharge<br>GST & PST<br> TOTAL:</div>
 						<div class="price_total leftie">$1598<br>$58<br>$61<br>$191 <h1>$1908</h1><br></div>
 					</div>
@@ -139,7 +164,7 @@
 				<!-- Buttons -->
 					<div class="package_title">
 	
-						<a href="payment.html"><div class="button">CONFIRM BOOKING PAYMENT</div></a>
+						<a href="confirmation.html"><div class="button">CONFIRM BOOKING PAYMENT</div></a>
 				</div>
 
 
