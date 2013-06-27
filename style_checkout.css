@@ -41,11 +41,51 @@
 .process ul li#selected a  {
 	color: white;
 }
+.process ul li#selected2 {
+	background: #5dacd7;
+}
+.process ul li#selected2 a  {
+	color: white;
+}
+.process ul li#selected3 {
+	background: #5dacd7;
+}
+.process ul li#selected3 a  {
+	color: white;
+}
+.process ul li#selected4 {
+	background: #5dacd7;
+}
+.process ul li#selected4 a  {
+	color: white;
+}
+.process ul li#selected_end {
+	background: #5dacd7;
+}
+.process ul li#selected_end  {
+	color: white;
+}
 .process  ul li#selected:hover {
 	background: #A0D34F;
 	color: white;
 	cursor: hand;
 }
+.process  ul li#selected2:hover {
+	background: #A0D34F;
+	color: white;
+	cursor: hand;
+}
+.process  ul li#selected4:hover {
+	background: #A0D34F;
+	color: white;
+	cursor: hand;
+}
+.process  ul li#selected4:hover {
+	background: #A0D34F;
+	color: white;
+	cursor: hand;
+}
+
 .process ul li a {
 	color: #A0D34F;
 }
