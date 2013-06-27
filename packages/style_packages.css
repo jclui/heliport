@@ -47,6 +47,7 @@ hr {
 	float:left;
 	width: 24%;
 	padding: 0% 2%;
+	border: 1px solid blue;
 }
 
 .panel {
@@ -55,6 +56,7 @@ hr {
 	padding: 2%;
 	padding-bottom: 0px;
 	padding-top: 18%;
+	border: 1px solid red;
 }
 .left {
 	margin-left: 4%;
@@ -96,8 +98,8 @@ hr {
 
 button {
 	padding: 4% 20%;
+	width: 100%;
 	margin: 0 auto;
-	text-align: center;
 }
 .book_mobile {
 	display: none;
