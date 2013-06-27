@@ -114,22 +114,12 @@
 
 					<div class="details">
 						<fieldset>
-							<ol>
-								<li>
-									<label for="name">Name&nbsp;</label>
-									<input id="name" name="name" type="text" placeholder="First and last name" required autofocus />
-								</li>
-						
-								<li>						
-									<label for="email">Email &nbsp;</label>
-									<input id="email" name="email" type="mail" placeholder="email@gmail.com" required />
-								</li>
-						
-								<li>
-									<label for="phone">Phone</label>
-									<input id="phone" name="phone" type="tel" placeholder="604-555-5555" required />
-								</li>	
-							</ol>
+							
+							<input type="text" name="name" placeholder="NAME: first and last" required autofocus>
+
+							<input type="tel" name="phone" placeholder="TELEPHONE: 604-555-5555" required autofocus>
+
+							<input type="mail" name="email" placeholder="EMAIL: sample@email.com" required autofocus>
 						</fieldset>
 							
 					
@@ -142,6 +132,7 @@
 					
 					<div class="details">
 						<fieldset>
+							<!--
 							<ol>
 								<li>
 									<label for="address">Comments</label>
@@ -150,6 +141,8 @@
 									</div>
 								</li>
 							</ol>
+							-->
+							<textarea id="address" name="address" rows=10  placeholder="Your message here." required></textarea>
 						</fieldset>
 						
 					</div> <!-- end details-->

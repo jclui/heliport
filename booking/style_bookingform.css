@@ -18,6 +18,14 @@ input {
 	color: #0974a7;
 }
 
+textarea {
+	width: 90%;
+	margin-top: 1%;
+	border: 1px solid #aaaaaa;
+	padding:5px;
+}
+
+
 .contact_inputs {
 	width: 50%;
 }
