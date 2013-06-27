@@ -19,10 +19,10 @@ input {
 }
 .button {
 	width: 30%;
-	height: 30px;
 	margin-top: 2%;
+	padding:2%;
 }
-.sec_head button  {
+.first_button {
 	width: 70%;
 }
 .sec_input button  {
@@ -35,7 +35,11 @@ input {
 .newsletter_mobile {
 	display: none;
 }
-
+.sec_input.button {
+	width: 10%;
+	float: left;
+	padding: 1%;
+}
 
 @media all and (max-width: 600px) {
 
@@ -45,15 +49,15 @@ input {
 	.sec_head {
 		width: 47.91%;
 	}
-	.sec_head button {
+	.first_button {
 		display: none;
+	}
+	.second_button {
+		width: 90%;
+		height: 25px;
 	}
 	.sec_contact {
 		display: block;
-	}
-	.sec_contact button {
-		width: 80%;
-		height: 25px;
 	}
 	.sec_owner {
 		padding-top:2%;
@@ -74,11 +78,6 @@ input {
 	}
 	input {
 		height: 25px;
-
-	}
-	.button {
-		height: 25px;
-		margin-top: 2%;
 
 	}
 
