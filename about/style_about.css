@@ -1,3 +1,4 @@
+
 .sec_contact {
 	display: none;
 }
@@ -6,22 +7,26 @@
 	cursor: hand;
 }
 .sec_input {
+
 }
 .sec_signup {
 	color: #0c70a0;
 	font-weight: 200;
 }
 input {
+	float: left;
 	width: 67.91%;
 	border-top: 2px solid white;
 	height: 30px;
 	margin-top: 2%;
 }
-button {
-	width: 30%;
-	height: 30px;
+.subscribe button {
 	margin-top: 2%;
+	width: 25%;
+	height: 30px;
+	padding: 0px;
 }
+
 .sec_head button  {
 	width: 70%;
 }
@@ -52,12 +57,14 @@ button {
 		display: block;
 	}
 	.sec_contact button {
-		width: 80%;
-		height: 25px;
+		width: 100%;
+		padding: 2%;
+		height: 28px;
 	}
 	.sec_owner {
 		padding-top:2%;
 		width: 47.91%;
+
 	}
 	.sec_video {
 		width:97.91%;
@@ -74,9 +81,8 @@ button {
 	}
 	input {
 		height: 25px;
-
 	}
-	button {
+	.subscribe button {
 		height: 25px;
 		margin-top: 2%;
 

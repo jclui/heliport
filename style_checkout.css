@@ -1,8 +1,8 @@
 .processsec {
 	background: #d9f1ff;
 	border-top: 5px solid #5dacd7;
-	padding-left: 4%;
-	padding-top: 10px;
+	padding-left: 1%;
+	padding-top: 5px;
 	padding-bottom: 0px;
 }
 .process ul {
@@ -14,7 +14,7 @@
 }
 .process ul li{
 	float: left;
-	width: 14%;
+	width: 15%;
 	padding: 1% 2%;
 	padding-right: 3%;
 	font-size: 1em;
@@ -54,3 +54,34 @@
 	padding-right: 5%;
 	vertical-align: middle;
 }
+
+
+
+@media all and (max-width: 850px) {
+	.process ul li{
+		font-size: .7em;
+		height: 28px;
+		text-align: center;
+	}
+	.process img {
+		display: block;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+}
+
+@media all and (max-width: 500px) {
+	.processsec {
+		padding: 10px 0px 0px 0px;
+	}
+	.process ul li{
+		width: 15%;
+		height: 25px;
+		}
+	.process img {
+		display: none;
+	}
+
+}
+
