@@ -20,6 +20,14 @@ body {
 	.logo {
 		background: blue;
 	}
+	.bookButton {
+		width: 60%;
+	}
+	.bookButton button {
+		width: 100%;
+		padding: 1%;
+		margin-top: 1%;
+	}
 }
 
 @media all and (max-width: 500px) {  /* MOBILE  - GREEN */
