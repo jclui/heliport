@@ -15,11 +15,11 @@
 		<header>
 			<nav>
 				<ul>
-					<li><a href="index.html">Home</a></li>
-					<li><a href="about.html">About</a></li>
-					<li><a href="transfer.html">Heli-Transfer</a></li>
-					<li><a href="package.html">Package</a></li>
-					<li><a href="index_quote.html">Request Quote</a></li>
+					<li><a href="../index.html">Home</a></li>
+					<li><a href="../about">About</a></li>
+					<li><a href="../packages">Packages</a></li>
+					<li><a href="../request">Request Quote</a></li>
+					<li id="active"><a href="index.html">Contact Us</a></li>
 				</ul>
 			</nav>
 		</header>
@@ -30,47 +30,46 @@
 <!-- start page content -->
 
 		<section class="blue_3 sec_title">
-			<div class="grid_2"><img src="../blank.png" alt="placeholder"/></div>
-			<div class="grid_6">
+			<div class="grid_6 contact_us">
 				<h1>CONTACT US!</h1>
 				Feel free to send us a message. We'll be happy to answer any question or concerns. <br>We want to hear from you! 
 			</div>
 		</section>
 		<section class="grey_2 sec_content">
-			<div class="grid_2"><img src="../blank.png" alt="placeholder"/></div>
 			<div class="grid_6">
 				<form id="contact">
-
-					<select>
-						<option>General Inquiry</option>
-						<option>Service Inquiry</option>
-						<option>Pricing Inquiry</option>
-						<option>Send Us Feedback</option>
-					</select>
-
-					<input type="text" name="name" placeholder="NAME: first and last" required autofocus>
-
-					<input type="tel" name="phone" placeholder="TELEPHONE: 604-555-5555" required autofocus>
-
-					<input type="email" name="email" placeholder="EMAIL: sample@email.com" required autofocus>
-
-					<textarea id="address" name="address" rows=10  placeholder="Your message here." required></textarea>
-
-					<div class="button">SUBMIT</div>
+					<fieldset>
+						<ul>
+							<li><label for="name">Your Name:</label></li>
+							<li><input type="text" id="name" name="name" placeholder="NAME: first and last" required autofocus></li>
+							<li><label for="tel">Telephone Nuber:</label></li>
+							<li><input type="tel" id="tel" name="phone" placeholder="TELEPHONE: 604-555-5555" required autofocus></li>
+							<li><label for="mail">Email Address:</label></li>
+							<li><input type="email" id="mail" name="email" placeholder="EMAIL: sample@email.com" required autofocus></li>
+							<li><label for="text">Your Message or Questions:</label></li>
+							<li><textarea id="address" name="address" rows=10  placeholder="Your message here." required></textarea></li>
+						</ul>
+						<div class="button">SUBMIT</div>
+					</fieldset>
 				</form>
 			</div>
-			<div class="grid_3">
-				<h2>DOWNTOWN HQ</h2>
-				555 Waterfront Road<br>
-				Vancouver, BC V6B 5E8<br><br>
-				Phone: 604.321.6789<br>
-				Fax: 604.321.6788<br>
-				Email: contact@heliport.ca<br><br>
-
-				<h2>CONNECT WITH US</h2>
-				<img src="../social_facebook.png" alt="Facebook">
-				<img src="../social_twitter.png" alt="Twitter"> 
-				<img src="../social_youtube.png" alt="YouTube"> 
+			<div class="grid_3"><br><br>
+				<div class="office">
+					<h2>DOWNTOWN HQ</h2>
+					<p>
+					555 Waterfront Road<br>
+					Vancouver, BC V6B 5E8<br><br>
+					Phone: 604.321.6789<br>
+					Fax: 604.321.6788<br>
+					Email: contact@heliport.ca<br><br>
+				</p>
+				</div>
+				<div class="socialmedia">
+					<h2>STAY CONNECT</h2>
+					<img src="../social_facebook.png" alt="Facebook">
+					<img src="../social_twitter.png" alt="Twitter"> 
+					<img src="../social_youtube.png" alt="YouTube"> 
+				</div>
 
 			</div>
 		</section>
