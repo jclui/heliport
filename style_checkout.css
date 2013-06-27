@@ -15,6 +15,7 @@
 .process ul li{
 	float: left;
 	width: 15%;
+	height: 20px;
 	padding: 1% 2%;
 	padding-right: 3%;
 	font-size: 1em;
