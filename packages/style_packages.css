@@ -1,0 +1,170 @@
+.main_image img {
+	width: 75%;
+}
+
+h2 {
+	color: #0a92d3;
+	text-align: center;
+	text-transform: uppercase;
+	padding-top: 2%;
+}
+h3 {
+	color: #707070;
+	text-align: center;
+	font-weight: normal;
+	padding-bottom: 3%;
+}
+hr {
+	width: 86%;
+	border: 1px solid #c2c2c2;
+}
+
+.faux_column {
+	background-image: url(faux_column_bg.png);
+	background-size: 100%;
+	padding-bottom: 0px;
+}
+.faux_bottom {
+	padding-top: 0px;
+	padding-bottom: 4%;
+	background-image: url(faux_column_bottom.jpg);
+	background-size: 100%;
+}
+.title {
+	margin-left: 5%;
+}
+.title p {
+	font-size: 1em;
+}
+.textcenter {
+	text-align: center;
+}
+
+.section {
+	width: 100%;
+}
+.faux_panel {
+	float:left;
+	width: 24%;
+	padding: 0% 2%;
+}
+
+.panel {
+	float:left;
+	width: 24%;
+	padding: 2%;
+	padding-bottom: 0px;
+	padding-top: 18%;
+}
+.left {
+	margin-left: 4%;
+	background-size: 100%;
+	background-repeat: no-repeat;
+
+
+}
+.center {
+	margin-left: 3%;
+	margin-right: 3%;
+	background-size: 100%;
+	background-repeat: no-repeat;
+
+}
+.right {
+	margin-right: 4%;
+	background-size: 100%;
+	background-repeat: no-repeat;
+
+}
+.price h1 {
+	font-weight: 200;
+	font-size: 2em;
+	color: #004b6f;
+}
+.price {
+	color: #acacac;
+	padding-top: 2%;
+}
+.panel p {
+	color: #707070;
+	font-size: 1em;
+	line-height: 150%;
+	text-align: center;
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
+
+button {
+	padding: 4% 20%;
+	margin: 0 auto;
+	text-align: center;
+}
+.book_mobile {
+	display: none;
+}
+
+
+@media all and (max-width: 600px) {
+
+}
+
+@media all and (max-width: 500px) {
+	.faux_column {
+		background: #d9f1ff;
+		padding-bottom: 0px;
+	}
+	.faux_bottom {
+		display: none;
+	}
+	.panel {
+		background-size: 40%;
+		background-color:white; 
+		border: 1px solid #a7dfff;
+		border-radius: 15px;
+		width: 95%;
+		height: auto;
+		padding-top: 1%;
+		padding-left: 30%; 
+	}
+	.left, .center, .right {
+		padding: 2%;
+		margin: 0px 0px 2% 0px;
+	}
+	.panel.left {
+		background-image: url(package_heliski_mobile.jpg);
+	}
+	.panel.center {
+		background-image: url(package_transfer_mobile.jpg)
+	}
+	.panel.right {
+		background-image: url(package_aerial_mobile.jpg);
+		padding-top: 0px;
+		padding-bottom: 0px;
+	}
+	.info {
+		margin-left: 40%;
+	}
+	.description {
+		display: none;
+	}
+	.book_mobile {
+		width: 60%;
+		margin-left: 40%;
+		display: block;
+	}
+	hr {
+		display: none;
+	}
+	.price {
+		margin-left: 40%;
+		padding: 0px 0px 4px 0px;
+		text-align: center;
+	}
+	.price h1 {
+		font-size: 1.75em;
+	}
+	p {
+		padding: 0px;
+		margin: 0px;
+	}
+}
