@@ -175,6 +175,7 @@ nav ul li#active a{
 nav ul li:hover {
 	text-decoration: none;
 	background: #363636;
+	cursor: hand;
 
 }
 nav ul li a:link {
@@ -361,6 +362,7 @@ footer {
 	padding-right: 5px;
 } 
 footer .menu {
+	text-align: center;
 }
 footer .menu ul {
 	float: left;
@@ -403,8 +405,10 @@ footer .menu li a:visited {
 	width: 100%;
 	display: block;
 }
-.menu img {
-	width: 40px;
+.iconss img {
+	width: 35px;
+	float: left;
+	meg
 }
 /* FOR TESTING ONLY */
 
