@@ -54,9 +54,6 @@ hr {
 	width: 24%;
 	padding: 2%;
 	padding-bottom: 0px;
-}
-
-.panel.topspace {
 	padding-top: 18%;
 }
 .left {
@@ -100,16 +97,11 @@ hr {
 button {
 	padding: 4% 20%;
 	margin: 0 auto;
+	text-align: center;
 }
-
-
-
-
-
-
-
-
-
+.book_mobile {
+	display: none;
+}
 
 
 @media all and (max-width: 600px) {
@@ -117,4 +109,62 @@ button {
 }
 
 @media all and (max-width: 500px) {
+	.faux_column {
+		background: #d9f1ff;
+		padding-bottom: 0px;
+	}
+	.faux_bottom {
+		display: none;
+	}
+	.panel {
+		background-size: 40%;
+		background-color:white; 
+		border: 1px solid #a7dfff;
+		border-radius: 15px;
+		width: 95%;
+		height: auto;
+		padding-top: 1%;
+		padding-left: 30%; 
+	}
+	.left, .center, .right {
+		padding: 2%;
+		margin: 0px 0px 2% 0px;
+	}
+	.panel.left {
+		background-image: url(package_heliski_mobile.jpg);
+	}
+	.panel.center {
+		background-image: url(package_transfer_mobile.jpg)
+	}
+	.panel.right {
+		background-image: url(package_aerial_mobile.jpg);
+		padding-top: 0px;
+		padding-bottom: 0px;
+	}
+	.info {
+		margin-left: 40%;
+	}
+	.description {
+		display: none;
+	}
+	.book_mobile {
+		width: 60%;
+		margin-left: 40%;
+		display: block;
+	}
+	hr {
+		display: none;
+	}
+	.price {
+		margin-left: 40%;
+		padding: 0px 0px 4px 0px;
+		text-align: center;
+	}
+	.price h1 {
+		font-size: 1.75em;
+	}
+	p {
+		padding: 0px;
+		margin: 0px;
+	}
 }
