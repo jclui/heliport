@@ -1,0 +1,85 @@
+.sec_contact {
+	display: none;
+}
+.sec_video img {
+	width: 100%;
+	cursor: hand;
+}
+.sec_input {
+}
+.sec_signup {
+	color: #0c70a0;
+	font-weight: 200;
+}
+input {
+	width: 67.91%;
+	border-top: 2px solid white;
+	height: 30px;
+	margin-top: 2%;
+}
+button {
+	width: 30%;
+	height: 30px;
+	margin-top: 2%;
+}
+.sec_head button  {
+	width: 70%;
+}
+.sec_input button  {
+	float: right;
+}
+
+.newsletter {
+	display: block;
+}
+.newsletter_mobile {
+	display: none;
+}
+
+
+@media all and (max-width: 600px) {
+
+}
+
+@media all and (max-width: 500px) {
+	.sec_head {
+		width: 47.91%;
+	}
+	.sec_head button {
+		display: none;
+	}
+	.sec_contact {
+		display: block;
+	}
+	.sec_contact button {
+		width: 80%;
+		height: 25px;
+	}
+	.sec_owner {
+		padding-top:2%;
+		width: 47.91%;
+	}
+	.sec_video {
+		width:97.91%;
+	}
+	.sec_story {
+		width: 97.91%;
+		padding-top:2%;
+	}
+	.newsletter {
+		display: none;
+	}
+	.newsletter_mobile {
+		display: block;
+	}
+	input {
+		height: 25px;
+
+	}
+	button {
+		height: 25px;
+		margin-top: 2%;
+
+	}
+
+}
