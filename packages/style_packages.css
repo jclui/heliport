@@ -94,9 +94,8 @@ hr {
 	padding-bottom: 2%;
 }
 
-button {
+.button {
 	padding: 4% 20%;
-	width: 100%;
 	margin: 0 auto;
 }
 .book_mobile {

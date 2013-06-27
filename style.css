@@ -143,6 +143,8 @@ a:active {
 nav {
 	margin: 0px;
 	padding: 0px;
+	background: #323232;
+
 }
 nav ul { 
 	background: #323232;
