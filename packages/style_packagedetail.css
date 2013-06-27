@@ -19,8 +19,7 @@ hr {
 }
 .title p {
 	font-size: 1em;
-}
-
+} 
 .section {
 	width: 100%;
 }
@@ -68,7 +67,7 @@ hr {
 	margin-bottom: 2%;
 	padding: 0%;
 	width: 60%;
-	background-image: url(bg_package_title.jpg);
+	background-image: url(../bg_package_title.jpg);
 	background-size: 100%;
 	background-repeat: no-repeat;
 }
