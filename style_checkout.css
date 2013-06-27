@@ -15,6 +15,7 @@
 .process ul li{
 	float: left;
 	width: 15%;
+	height: 20px;
 	padding: 1% 2%;
 	padding-right: 3%;
 	font-size: 1em;
@@ -25,27 +26,67 @@
 	background-position: right;
 	background-repeat: no-repeat; 
 }
-.process ul li#lastarrow  {
+.process  ul li#lastarrow  {
 	background-image: url();
 }
-.process ul li#select  {
+.process li#select {
 	background: #5dacd7;
 	background-image: url(process_arrow_select.png);
 	background-position: right;
 	background-repeat: no-repeat;
 	color: white;
 }
-.process ul li#selected  {
+.process ul li#selected {
 	background: #5dacd7;
 }
 .process ul li#selected a  {
 	color: white;
 }
-.process ul li#selected:hover {
+.process ul li#selected2 {
+	background: #5dacd7;
+}
+.process ul li#selected2 a  {
+	color: white;
+}
+.process ul li#selected3 {
+	background: #5dacd7;
+}
+.process ul li#selected3 a  {
+	color: white;
+}
+.process ul li#selected4 {
+	background: #5dacd7;
+}
+.process ul li#selected4 a  {
+	color: white;
+}
+.process ul li#selected_end {
+	background: #5dacd7;
+}
+.process ul li#selected_end  {
+	color: white;
+}
+.process  ul li#selected:hover {
 	background: #A0D34F;
 	color: white;
 	cursor: hand;
 }
+.process  ul li#selected2:hover {
+	background: #A0D34F;
+	color: white;
+	cursor: hand;
+}
+.process  ul li#selected3:hover {
+	background: #A0D34F;
+	color: white;
+	cursor: hand;
+}
+.process  ul li#selected4:hover {
+	background: #A0D34F;
+	color: white;
+	cursor: hand;
+}
+
 .process ul li a {
 	color: #A0D34F;
 }

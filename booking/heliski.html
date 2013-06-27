@@ -1,7 +1,7 @@
-<DOCTYPE hmtl>
+<!DOCTYPE html>
 <html>
 <head>
-	<meta http-equiv="Content-Type" content="text/html"; charset="UTF-8"/>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 	<meta name="viewport" content="width=device-width" /> <!-- disables page scalling on mobile device -->
 	<link rel="stylesheet" type="text/css" href="../style.css"/>
 	<link rel="stylesheet" type="text/css" href="../style_checkout.css"/>
@@ -15,21 +15,21 @@
 	<title>HELIPORT CO. - BOOKING - HELISKI</title>
 </head>
 <body>
-	<section class="logo"><img src="../heliport_logo_white.png"/></section>
+	<section class="logo"><img src="../heliport_logo_white.png" alt="Heliport Logo"/></section>
 	<section class="wrapper">
 		<header>
 			<nav>
 				<ul>
-					<li><a href="index.html">Home</a></li>
-					<li><a href="about.html">About</a></li>
-					<li><a href="transfer.html">Heli-Transfer</a></li>
-					<li><a href="package.html">Package</a></li>
-					<li><a href="request.html">Request Quote</a></li>
+					<li><a href="../index.html">Home</a></li>
+					<li><a href="../about">About</a></li>
+					<li id="active"><a href="../packages">Packages</a></li>
+					<li><a href="../request">Request Quote</a></li>
+					<li><a href="../contact">Contact Us</a></li>
 				</ul>
 			</nav>
 		</header>
 		<div class="main_image ft_contact holder">
-			<img src="../holder.png">
+			<img src="../holder.png" alt="Main feature image - Helicopter">
 		</div>
 
 <!-- start page content -->
@@ -38,22 +38,22 @@
 					<ul>
 						<li id="selected">
 							<a href="../packages/index.html">
-							<img src="../number_check.png">Heli ski trip
+							<img src="../number_check.png" alt="Step 1">Heli ski trip
 							</a>
 						</li>
-						<li id="selected">
+						<li id="selected2">
 							<a href="../packages/heliski.html">
-							<img src="../number_check.png">level 1: Classic
+							<img src="../number_check.png" alt="Step 2">level 1: Classic
 							</a>
 						</li>
 						<li id="select">
-							<img src="../number_3_green.png">Booking
+							<img src="../number_3_green.png" alt="Step 3">Booking
 						</li>
-						<li><img src="../number_4_grey.png">Payment
+						<li><img src="../number_4_grey.png" alt="Step 4">Payment
 						</li>
 						
 						<li id="lastarrow">
-							<img src="../number_5_grey.png">confirmation
+							<img src="../number_5_grey.png" alt="Step 5">confirmation
 						</li>
 					</ul>
 				</div>
@@ -65,30 +65,19 @@
 			<div class="columnLeft">
 				<div class="panel left textcenter">
 					<h2>Heli Ski Trips</h2>
-					<h3>Blackcomb Peak Experience</h3>
-					<p>
-						Classic Experience<br>
-						Elite Experience<br>
-						Expert Experience
-					</p>
-					<hr>
-					<p>
-						<li>4 runs on Blackcomb Mountain Helicopter service</li>
-						<li>1,400 - 2,300 vertical meters of skiing</li>
-						<li>Helicopter capacity of 3-5 people</li>
-					</p>
-				
+					<h3>Blackcomb Peak Experience</h3><br>
+
+					<h1>LEVEL: CLASSIC</h1>
+					<div class="description2">
+						<hr>
+						<p>
+							Challenge your limits by skiing or snowboarding on the highest of peaks, made possible by helicopter access.
+						</p>
+					</div>
+					<div class="changebutton button">CHANGE PACKAGE</div>
+
+				</div>
 			</div>
-
-				<button type="button">Reselect Package</button>
-	
-
-			</div>
-
-
-
-
-
 			<div class="panel right"> 
 				<div>
 					<h2>PACKAGE BOOKING CHECKOUT</h2>
@@ -107,17 +96,103 @@
 
 
 					<div class="details">
-						<fieldset>
-							
-							<input type="text" name="name" placeholder="NAME: first and last" required autofocus>
-
-							<input type="tel" name="phone" placeholder="TELEPHONE: 604-555-5555" required autofocus>
-
-							<input type="mail" name="email" placeholder="EMAIL: sample@email.com" required autofocus>
-						</fieldset>
+						<form>
+							<fieldset>
+								<ul>
+									<li><label for="name">Your Name:</label></li>
+									<li><input type="text" id="name" name="name" placeholder="First and Last" required autofocus></li>
+									<li><label for="tel">Telephone Nuber:</label></li>
+									<li><input type="tel" id="tel" name="phone" placeholder="604-555-5555" required autofocus></li>
+									<li><label for="mail">Email Address:</label></li>
+									<li><input type="email" id="mail" name="email" placeholder="sample@email.com" required autofocus></li>
+								</ul>
+							</fieldset>
+						</form>
 							
 					
 					</div> <!-- end details-->
+
+
+			<!-- Contact Information - Name, Email, Phone  -->
+					<div class="package_title">
+						<h3>PACKAGE DETAILS</h3>
+					</div> <!-- package title -->
+
+					<div class="details">
+						<form>
+							<fieldset>
+								<ul>
+									<li>Package Type: <h3 style="display: inline;">Heli Sky Trip</h3></li>
+									<li>Package Level: <h3 style="display: inline;">1: Classic Experience</h3></li>
+									<li>Number of Runs: <h3 style="display: inline;">4 Runs, Blackcombe</h3></li>
+									<li>
+										<label for="month">Month</label> 
+										  <select id="month" 
+										          name="month" /> 
+										    <option>January</option>       
+										    <option>February</option>       
+										    <option>March</option>         
+										    <option>November</option>       
+										    <option>December</option>       
+										  </select> - 
+										  <label for="day">Day</label> 
+										  <select id="day" 
+										          name="day" /> 
+										    <option>1</option>       
+										    <option>2</option>       
+										    <option>3</option>       
+										    <option>4</option>       
+										    <option>5</option>       
+										    <option>6</option>       
+										    <option>7</option>       
+										    <option>8</option>       
+										    <option>9</option>       
+										    <option>10</option>       
+										    <option>11</option>       
+										    <option>12</option>       
+										    <option>13</option>       
+										    <option>14</option>       
+										    <option>15</option>       
+										    <option>16</option>       
+										    <option>17</option>       
+										    <option>18</option>       
+										    <option>19</option>       
+										    <option>20</option>       
+										    <option>21</option>       
+										    <option>22</option>       
+										    <option>23</option>       
+										    <option>24</option>       
+										    <option>25</option>       
+										    <option>26</option>       
+										    <option>27</option>       
+										    <option>28</option>       
+										    <option>29</option>       
+										    <option>30</option>       
+										    <option>31</option>       
+										  </select> - 
+										  <label for="year">Year</label> 
+										  <select id="year" 
+										         name="year" /> 
+										       
+										    <option>2013</option>       
+										    <option>2014</option>             
+										  </select> 
+									</li>
+									<li><label for="text">Number of Travelers</label> 
+										<select>
+											<option>1</option>
+											<option>2</option>
+											<option>3</option>
+											<option>4</option>
+											<option>5</option>
+										</select>
+									</li>
+								</ul>
+							</fieldset>
+						</form>
+							
+					
+					</div> <!-- end details-->	
 					
 			<!-- Additional Comments -->
 					<div class="package_title">
@@ -125,35 +200,24 @@
 					</div> <!-- package title -->
 					
 					<div class="details">
-						<fieldset>
-							<!--
-							<ol>
-								<li>
-									<label for="address">Comments</label>
-									<div>
-									<textarea id="address" name="address" style=width: 500px; rows=10; required></textarea>
-									</div>
-								</li>
-							</ol>
-							-->
-							<textarea id="address" name="address" rows=10  placeholder="Your message here." required></textarea>
-						</fieldset>
+						<form>
+							<fieldset>
+								<ul>
+									<li><label for="text">Your Message or Questions:</label></li>
+									<li><textarea id="address" name="address" rows=8  placeholder="Your message here." required></textarea></li>
+								</ul>
+								
+							</fieldset>
+						</form>
 						
 					</div> <!-- end details-->
 					
 				<!-- Buttons -->
 					<div class="package_title">
-					<div class="buttons">
-						<a href="heliski.html">
-							<button type="button">BOOK</button>
-						</a>
-					</div>
-						
-					<div class="buttons">
-						<a href="heliski.html">
-							<button type="button">REQUEST QUOTE</button>
-						</a>
-					</div> <!-- package title -->
+	
+						<a href="payment.html"><div class="button">PROCEED TO PAYMENT</div></a>
+
+						<a href="heliski.html"><div class="button"><div>REQUEST QUOTE</div></a>
 				</div>
 
 
@@ -167,35 +231,35 @@
 
 <!-- end page content -->
 
-	</body>
-	<footer>
 
-		<div class="grid_3">
-			<a href="index.html">
-			<img src="../heliport_logo_white.png" class="footerlogo imglink"></a>
-			<br>Copyright 2013. All rights reserved.
-			<div class="social">
-				FOLLOW US<br>
-				<img src="../social_facebook.png">
-				<img src="../social_twitter.png">
-				<img src="../social_youtube.png">
+		<footer>
+			<div class="grid_3">
+				<a href="index.html">
+				<img src="../heliport_logo_white.png" class="footerlogo imglink" alt="Heliport logo"></a>
+				<br>Copyright 2013. All rights reserved.
+				<div class="social">
+					FOLLOW US<br>
+					<img src="../social_facebook.png" alt="Facebook"/>
+					<img src="../social_twitter.png" alt="Twitter"/>
+					<img src="../social_youtube.png" alt="Youtube"/>
+				</div>
+
+			</div> 
+
+
+			<div class="grid_9 menu">
+				<ul>
+					<li><a href="about.html">About Us</a></li>
+					<li><a href="package.html">Packages</a></li>
+					<li><a href="transfer.html">Heli-Transfer</a></li>
+					<li><a href="book.html">BOOK NOW</a></li>
+					<li><a href="requst.html">REQUEST QUOTE</a></li>
+					<li><a href="contact.html">CONTACT US</a></li>
+				</ul>
 			</div>
 
-		</div> 
 
-
-		<div class="grid_9 menu">
-			<ul>
-				<li><a href="about.html">About Us</a></li>
-				<li><a href="package.html">Packages</a></li>
-				<li><a href="transfer.html">Heli-Transfer</a></li>
-				<li><a href="book.html">BOOK NOW</a></li>
-				<li><a href="requst.html">REQUEST QUOTE</a></li>
-				<li><a href="contact.html">CONTACT US</a></li>
-			</ul>
-		</div>
-
-
-	</footer>
-</section> <!-- end wrapper-->
+		</footer>
+	</section> <!-- end wrapper-->	
+</body>
 </html>

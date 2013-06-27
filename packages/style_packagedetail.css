@@ -118,21 +118,55 @@ hr {
 	text-align: center;
 }
 
-.columnLeft button {
-	width: 100%;
-	margin-top: 3%;
-}
-
-button {
+.button {
 	padding: 4% 20%;
-	margin: 0 auto;
+	margin: 5% auto;
 	text-transform: uppercase;
 }
-
+.button_link {
+	display: none;
+}
 
 @media all and (max-width: 600px) {
-
+	hr {
+		display: none;
+	}
+	.columnLeft {
+		width: 100%;
+		margin-left: 0px;
+		margin-bottom: 2%;
+	}
+	.panel.left {
+		padding-left: 40%;
+		padding-right: 2%;
+		padding-top: 0px;
+		background-image: url(package_heliski_mobile.jpg);
+		background-size: 41%;
+	}
+	.add_butons{
+		display: none;
+	}
+	.panel.right {
+		width: 100%;
+		margin-left: 0px;
+		margin-bottom: 0px;
+	}
+	.button_link {
+		display: block;
+		margin: 0px;
+	}
+	.button_link .button {
+		width:40%;
+		padding: 2%;
+		margin: 0px 2%; 
+		float: left;
+	}
+	.description2 {
+		display: none;
 }
 
 @media all and (max-width: 500px) {
+		.description {
+		display: none;
+	}
 }

@@ -1,3 +1,5 @@
+
+
 fieldset  {
 	border: none;
 	width: 100%;
@@ -5,10 +7,10 @@ fieldset  {
 
 form ul {
 	list-style-type: none;
+	-webkit-padding-start: 0px;
 }
 form ul li {
-	display: inline;
-	background: red;
+	padding: 1%;
 }
 
 input {
@@ -37,21 +39,21 @@ textarea {
 	border-color: red;
 }
 
-button {
-	padding: 4% 20%;
-	margin: 0 auto;
+.changebutton.button {
+	float: none;
+	width: 100%;
+	padding: 2%;
+	margin: 0%;
+	margin-bottom: 2%;
 	text-transform: uppercase;
-
 }
 
-.buttons {
+.button {
 	float: left;
-	width: 30%;
-	padding-left: 2%;
-	border-color: red;
-	padding-bottom:  3%;
-	padding-top: 3%;
-	
+	width: 40%;
+	padding: 2%;
+	margin: 0 2%;
+	text-transform: uppercase;
 }
 
 textarea {
@@ -62,38 +64,29 @@ textarea {
 	padding-bottom: 8%;
 }
 
-.columnLeft button {
-	width: 100%;
-	margin-top: 3%;
-}
 
 .panel.centerconfirm {
 	
 }
 
-
-
+.price_total {
+	font-size: 1.2em;
+	margin-left: 4%;
+	width: 30%;
+	float:left;
+}
+.price_total.leftie {
+	width: 20%;
+	float:left;
+	text-align: right;
+	color: #0a92d3;
+}
 
 @media all and (max-width: 600px) {
-
-
-
+	hr {
+		display: none;
+	}
 
 @media all and (max-width: 500px) {
-	.panel {
-		background-size: 40%;
-		background-color:white; 
-		border: 1px solid #a7dfff;
-		border-radius: 15px;
-		width: 95%;
-		height: auto;
-		padding-top: 1%;
-		padding-left: 30%; 
-	}
-	.left, .right {
-		padding: 2%;
-		margin: 0px 0px 2% 0px;
-	}
-	
 	
 }
