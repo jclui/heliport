@@ -54,3 +54,23 @@
 	padding-right: 5%;
 	vertical-align: middle;
 }
+
+
+
+@media all and (max-width: 600px) {
+
+}
+
+@media all and (max-width: 500px) {
+}
+.processsec {
+	padding: 10px 0px 0px 0px;
+}
+.process ul li{
+	width: 15%;
+	height: 25px;
+	}
+.process img {
+	display: none;
+}
+
