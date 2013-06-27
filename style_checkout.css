@@ -25,23 +25,23 @@
 	background-position: right;
 	background-repeat: no-repeat; 
 }
-.process ul li#lastarrow  {
+.process  ul li#lastarrow  {
 	background-image: url();
 }
-.process ul li#select  {
+.process li#select {
 	background: #5dacd7;
 	background-image: url(process_arrow_select.png);
 	background-position: right;
 	background-repeat: no-repeat;
 	color: white;
 }
-.process ul li#selected  {
+.process ul li#selected {
 	background: #5dacd7;
 }
 .process ul li#selected a  {
 	color: white;
 }
-.process ul li#selected:hover {
+.process  ul li#selected:hover {
 	background: #A0D34F;
 	color: white;
 	cursor: hand;
